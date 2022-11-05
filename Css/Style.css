@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+* {
+  font-family: "Acme", sans-serif;
+  font-style: normal;
+}
+.alert {
+  height: 30px !important;
+  padding: 3px 3px;
+  font-size: 15px;
+}
+.bg-sign-in {
+  background: linear-gradient(69.66deg, #00c1fe 19.39%, #faffc1 96.69%);
+  height: 100vh;
+}
+.form-sign-in,
+.sign-up {
+  border-radius: 10px;
+  width: 380px;
+}
+
+.bg-show {
+  display: block !important;
+  z-index: 0;
+}
+.bg {
+  background-color: rgba(0, 0, 0, 0.575);
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  cursor: pointer;
+  display: none;
+}
+.register {
+  background: none;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -1000px;
+  transform: translate(-190px, -260px);
+  transition: 1s ease-out;
+}
+.register-active {
+  margin-top: 0;
+  transition: 1s ease-out;
+}
+button[type="submit"] {
+  background-color: #00c1fe;
+}
+.E-classe {
+  border-left: solid 6px #00c1fe;
+}
+.bg-sign-in p,
+.bg-sign-in label {
+  font-size: 14px;
+  line-height: 17, 07px;
+  font-weight: 400;
+  color: #6c6c6c;
+}
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+  font-size: 12px;
+  line-height: 15px;
+  color: #cdcdcd;
+}
+.sign-in {
+  font-size: 22px;
+  line-height: 27px;
+  font-weight: 600;
+}
